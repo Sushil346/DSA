@@ -21,7 +21,7 @@ class HashTable:
         found = False
         for index, element in enumerate(self.arr[h]):
             if element[0] == key:
-                self.arr[h][index] = [key, val]  # Consistent list
+                self.arr[h][index] = [key, val] 
                 found = True
                 break     
         if not found:
